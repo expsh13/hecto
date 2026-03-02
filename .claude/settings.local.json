@@ -3,7 +3,10 @@
     "allow": [
       "WebFetch(domain:www.amazon.co.jp)",
       "WebSearch",
-      "WebFetch(domain:gihyo.jp)"
+      "WebFetch(domain:gihyo.jp)",
+      "Bash(cargo clippy:*)",
+      "Bash(gh api:*)",
+      "Bash(cargo build:*)"
     ]
   }
 }
